@@ -40,3 +40,11 @@ Music library for saving and listing favourite songs. Live demo is available [he
 - To start the server run:
 
 `$ npm start`
+
+## Future development
+- Adding/ Updating/ Removing songs
+- Songs player
+- Update user profile
+- Playlist
+
+- Tests implementation
