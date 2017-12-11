@@ -29,7 +29,7 @@ export class AuthRoute {
 
         // find by email
         try {
-            let user = await User.findOne({ where: { email: req.body.email } })
+            const user = await User.findOne({ where: { email: req.body.email } })
             if (user != null) {
                 // compare password
                 bcrypt.compare(req.body.password, user.password, (err, ok) => {
