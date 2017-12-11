@@ -1,5 +1,5 @@
 # Music library
-Music library for saving and listing favourite songs.
+Music library for saving and listing favourite songs. Live demo is available [here](https://music-library-demo.herokuapp.com/).
 ![screenshot](https://i.imgur.com/Z6thZqf.jpg)
 
 
