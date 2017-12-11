@@ -1,6 +1,6 @@
 # Music library
 Music library for saving and listing favourite songs.
-![screenshot](https://i.imgur.com/PAlN1Y2.jpg)
+![screenshot](https://i.imgur.com/Z6thZqf.jpg)
 
 
 ## Features
