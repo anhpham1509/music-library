@@ -27,7 +27,8 @@ module.exports = function (grunt) {
                     experimentalDecorators: true,
                     emitDecoratorMetadata: true,
                     rootDir: "backend"
-                }
+                },
+                tsconfig: "./backend/tsconfig.json"
             }
         },
         watch: {

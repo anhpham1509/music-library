@@ -5,10 +5,12 @@
   "private": true,
   "author": "Anh Pham",
   "scripts": {
-    "build_frontend": "cd frontend && webpack --progress && cd ..",
-    "build_backend": "cd backend && grunt",
+    "build_frontend": "webpack --progress --config ./frontend/webpack.config.js",
+    "build_backend": "grunt",
+    "build": "npm run build_frontend && npm run build_backend",
     "dev": "NODE_ENV=development nodemon ./server",
-    "start": "npm run build_frontend && npm run build_backend && node ./server"
+    "start": "node ./server",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "axios": "^0.17.1",

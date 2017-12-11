@@ -27,7 +27,7 @@ const configs = {
         rules: [
             {
                 test: /\.tsx?$/,
-                loader: "awesome-typescript-loader"
+                loader: "awesome-typescript-loader?configFileName=./frontend/tsconfig.json"
             },
             {
                 enforce: "pre",
