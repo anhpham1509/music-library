@@ -1,0 +1,62 @@
+.navbar {
+	padding-top: 10px;
+	background: #333;
+	background: rgba(51, 51, 51, 0.3);
+	border: 0;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+	margin-bottom: 0;
+}
+.navbar.navbar-bg { 
+	z-index: 100;
+	-webkit-transform: translateZ(0);
+    transform: translateZ(0);
+	box-shadow: 0 3px 0 0 rgba(0,0,0,.08);
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	overflow: hidden;
+	background: #262728;
+}
+
+ul.navbar-nav {
+	color: #fff;
+}
+
+.navbar-inverse ul.navbar-nav li { 
+	margin-top: 8px;
+}
+
+.navbar-inverse ul.navbar-nav li .li-text { 
+	opacity: 0.8; 
+}
+
+.navbar-inverse ul.navbar-nav li a { 
+	display: inline; 
+	margin-left: 15px; 
+	margin-right: 15px; 
+	padding: 0; 
+	color: #aaabac; 
+}
+.navbar-inverse ul.navbar-nav li a:hover { 
+	color: #ffffff; 
+	opacity: 1; 
+	border-bottom: 1px dotted #aaabac; 
+}
+.navbar-inverse ul.navbar-nav li a:focus { 
+	color: #ffffff; 
+	outline: 0; 
+	opacity: 1; 
+	border-bottom: 1px dotted #aaabac; 
+}
+
+.navbar-brand {
+	//width: 123px;
+	//background: url(../img/logo.png) left center no-repeat;
+	//text-indent: -99999px;
+	color: #ffffff;
+}
+
+.navbar-inverse ul.navbar-right li.title-left{
+	margin-right: 15px;
+}
+.navbar-inverse ul.navbar-right li.logout-left{
+	border-left: 1px solid #38393a;
+}
