@@ -9,8 +9,7 @@
     "build_backend": "grunt",
     "build": "npm run build_frontend && npm run build_backend",
     "dev": "NODE_ENV=development nodemon ./server",
-    "start": "node ./server",
-    "postinstall": "npm run build"
+    "start": "node ./server"
   },
   "dependencies": {
     "axios": "^0.17.1",
