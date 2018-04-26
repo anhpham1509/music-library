@@ -27,5 +27,8 @@ jobs:
       - run: npm run build_backend
       
       - run: npm run build_frontend
+      
+      # upload codecov
+      - run: bash <(curl -s https://codecov.io/bash)
 
 
